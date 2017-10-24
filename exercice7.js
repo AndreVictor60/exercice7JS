@@ -4,7 +4,7 @@ function resultat(){
   var year = document.getElementById('annee').value;
   //Vérification
   if(isNaN(size) == true || isNaN(year) == true){
-        alert('Ceci n\est pas un chiffre');
+        alert('Ceci n\'est pas un chiffre');
   }
   else {
   var  shoesize = size;
