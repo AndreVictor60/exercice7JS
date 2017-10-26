@@ -9,18 +9,16 @@ function resultat(){
   else {
   var  shoesize = size;
   var  yearbith = year;
-    // Déclarer la variable résultat et on init a 0
-    var resultat = 0;
     // Multiplier la pointure par 2
-    resultat = shoesize * 2;
+  var  resultat = shoesize * 2;
     // Ajouter 5 au résultat
-    resultat = resultat + 5;
+    resultat += 5;
     // Multiplier le tout par 50
-    resultat = resultat * 50;
+    resultat += 50;
     // Soustraire l’année de naissance
-    resultat = resultat - yearbith;
+    resultat -= yearbith;
     // Ajouter au tout 1766
-    resultat = resultat + 1766;
+    resultat +=  1766;
     // Afficher le résultat
     alert(resultat);
 
